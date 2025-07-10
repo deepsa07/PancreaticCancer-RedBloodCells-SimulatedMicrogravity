@@ -1,9 +1,8 @@
-# PancreaticCancer-RedBloodCells-SimulatedMicrogravity
 # RBC Dielectric Properties Analysis using Single Spherical Shell Model- MATLAB Codes
 
 This repository contains MATLAB scripts used for generating the **Clausius-Mossotti (CM) plots** and **Radar plots** for the project titled: **"Dielectrophoretic Profiling of Red Blood Cells (RBCs) from Pancreatic Cancer Patients under Simulated Microgravity"**
 
-### 🧾 Abbreviations Used in the Code
+### Abbreviations Used in the Code
 
 | Abbreviation   | Full Term                                  | Unit          | Meaning                                                                 |
 |---------------|---------------------------------------------|---------------|-------------------------------------------------------------------------|
@@ -16,7 +15,7 @@ This repository contains MATLAB scripts used for generating the **Clausius-Mosso
 | **fxo1**      | First Crossover Frequency                   | kHz           | Frequency at which the DEP force transitions from negative to positive; related to size, shape, and membrane properties. |
 | **fxo2**      | Second Crossover Frequency                  | MHz           | Frequency at which intracellular properties dominate the DEP response; reflects cytoplasmic and membrane changes. |
 
-## 📊 Description of Scripts
+## Description of Scripts
 
 ### 1. CMplotRBCsMG.m
 - **Purpose:**
@@ -41,23 +40,23 @@ This repository contains MATLAB scripts used for generating the **Clausius-Mosso
 - **Outputs:**
   - Radar plot displaying normalized values across conditions (0 hr, NG, SMG).
 
-## 📥 How to Use
+## How to Use
 
 1. Place your processed experimental data into `sample_data.xlsx` in the appropriate format.
 2. Run `CM_Plot.m` to generate CM plots.
 3. Run `Radar_Plot.m` to generate radar charts comparing all selected properties.
 
-## 🔧 Requirements
+## Requirements
 
 - MATLAB R2020 or later
 - Statistics and Machine Learning Toolbox (optional for some visualizations)
 
-## 📌 Notes
+## Notes
 
 - The dielectric model used is a **single-shell oblate spheroid model**.
 - Frequency range and dielectric property values can be adjusted within the scripts.
 
-## 📚 Citation
+## Citation
 
 If you use these scripts for your work, please cite the corresponding study:
 
