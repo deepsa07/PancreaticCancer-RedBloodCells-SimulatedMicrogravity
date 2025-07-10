@@ -43,8 +43,8 @@ This repository contains MATLAB scripts used for generating the **Clausius-Mosso
 ## How to Use
 
 1. Place your processed experimental data into `sample_data.xlsx` in the appropriate format.
-2. Run `CM_Plot.m` to generate CM plots.
-3. Run `Radar_Plot.m` to generate radar charts comparing all selected properties.
+2. Run `CMplotRBCsMG.m` to generate CM plots.
+3. Run `Final_Radar_Plots_All_Times.m` to generate radar charts comparing all selected properties.
 
 ## Requirements
 
